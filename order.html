@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Order your beverages Online</title>
+<link type="text/css" rel="stylesheet" href="lounge.css"/>
+<script type="text/javascript">
+
+</script>
+</head>
+<body>
+<div id="containsAll">
+<div id="logo">
+<img src="Images/twitter.jpg" class="twitter"/>
+<img src="Images/Coffee_lounge.jpg">
+<br/>
+</div>
+<br>
+<div id="contains">
+<h3 class="mar">Lemonade is Back!</h3>
+<p>
+<img src="Images/Lemons.png" title="Lemons" class="floatLeft">
+Our fresh squeezed lemonade made to order from nothing but lemons, water and sugar.</p>
+<h3 class="mar">Thanks for supporting us.</h3>
+<p><img src="Images/dig2011.png" title="Award" class="floatLeft">We won the Dig's "Best Coffeehouse" for 2011.
+[ Check out some of our other awards! ]</p>
+<h3 class="mar">We Sell The Best Beans</h3>
+<p><img src="Images/BulkBeans.png" class="floatLeft">Our varietals have been selected as the finest we can offer. We routinely evaluate our beans to make sure they always stay the best!</p>
+
+</div>
+<form name="Order the Beverage you like" action="_" method="POST">
+<div id="forms">
+<p class="frms">Fill up the form and order your favourite beans</p>
+<table>
+<tr><th>Choose your beans:</th><td><select name="beans">
+<option value="House Blend">House Blend</option>
+<option value="Bolivia">Shade Grown Bolivia</option>
+<option value="Guatemela">Organic Guetemela</option>
+<option value="kenya">Kenya</option>
+</select></td></tr>
+<tr><th>Type:</th><td><input type="radio" name="Type" value="Whole bean"/>Whole Bean<br>
+<input type="radio" name="Type" value="Ground"/>Ground</td></tr>
+<tr><th>Extras:</th><td><input type="checkbox" name="Extras" value="Gift Wrap" checked="Gift Wrap"/>Gift Wrap.
+<br><input type="checkbox" name="Extras" value="Catalog"/>Include catalog with order.</td></tr>
+<tr><th>Ship to:</th><td><table><tr>
+<th>First Name:</th>
+<td><input type="text" name="name" id="Fname"/></td></tr>
+<tr><th>Last name:</th>
+<td><input type="text" name="name1" id="Lname"/></td>
+<tr> <th>Address</th><td>
+<input type="text" name="Address" id="Addr"/></td></tr>
+<tr><th>City:</th><td><input type="text" name="city"/></td></tr>
+<tr><th>State:</th><td><input type="text" name="state"/></td></tr>
+<tr><th>ZipCode:</th><td><input type="text" name="zipcode"/></td></tr></table>
+<tr><th> Customer feedback:</th><td><textarea name="comment" rows="10" cols="40"></textarea></td></tr>
+<tr><th></th><td><input type="submit" value="Order Now"/></td></table>
+</div>
+</form>
+<div id="footer">
+<p>© 2013, Coffee Lounge <br>
+All trademarks and registered trademarks appearing on this site are the property of their respective owners.</p>
+</div>
+</div>
+</body>
+</html>
